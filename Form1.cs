@@ -34,33 +34,35 @@ namespace _01BASIC
 
         }
 
-        
+
 
         private void button1_Click(object sender, EventArgs e)
         {
             this.textArea.Clear();
-            Console.WriteLine("LED_01 ON SUCCESS");
-            this.textArea.AppendText("LED_01 ON CLICKED");
+            Console.WriteLine("LED_01 ON CLICKED");
+            this.textArea.AppendText("LED_01 ON SUCCESS");
         }
+
         private void button2_Click(object sender, EventArgs e)
         {
             this.textArea.Clear();
-            Console.WriteLine("LED_01 OFF SUCCESS");
-            this.textArea.AppendText("LED_01 OFF CLICKED");
+            Console.WriteLine("LED_01 OFF CLICKED");
+            this.textArea.AppendText("LED_01 OFF SUCCESS");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             this.textArea.Clear();
-            Console.WriteLine("LED_02 ON SUCCESS");
-            this.textArea.AppendText("LED_02 ON CLICKED");
+            Console.WriteLine("LED_02 ON CLICKED");
+            this.textArea.AppendText("LED_02 ON SUCCESS");
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             this.textArea.Clear();
-            Console.WriteLine("LED_02 OFF SUCCESS" );
-            this.textArea.AppendText("LED_02 OFF CLICKED");
+            Console.WriteLine("LED_02 OFF CLICKED");
+            this.textArea.AppendText("LED_02 OFF SUCCESS");
         }
+
     }
 }
